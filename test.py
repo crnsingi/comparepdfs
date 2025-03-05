@@ -23,3 +23,5 @@ msg1,msg2 = hash_file("matching1.pdf","matching2.pdf")
 
 if msg1 == msg2:
     print("The tow files are identical")
+else: 
+    print("The two files are not identical")
