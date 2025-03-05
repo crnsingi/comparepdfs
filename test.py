@@ -17,3 +17,4 @@ def hash_file(fileName1,fileName2):
             chuck = file.read(1024)
             h2.update(chunk)
     
+    return h1.hexdigest(),h2.hexdigest()
