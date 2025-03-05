@@ -1,10 +1,11 @@
 import hashlib
 
-def hash_file():
+def hash_file(fileName1,fileName2):
     h1 = hashlib.sha1()
     h2 = hashlib.sha1()
     
-    print(h1,"\n",h2)
+    with open(fileName1,"rb") as file:
+        chunk = 0
     
-hash_file()
+
     
