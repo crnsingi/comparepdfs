@@ -6,6 +6,8 @@ def hash_file(fileName1,fileName2):
     
     with open(fileName1,"rb") as file:
         chunk = 0
+        while chunk != b'':
+            chuck = file.read(1024)
     
 
     
