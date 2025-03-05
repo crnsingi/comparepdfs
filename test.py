@@ -19,5 +19,7 @@ def hash_file(fileName1,fileName2):
     
     return h1.hexdigest(),h2.hexdigest()
 
-msg1,msg2 = hash_file("matching1.pdf","matching2.pdf"
-                      )
+msg1,msg2 = hash_file("matching1.pdf","matching2.pdf")
+
+if msg1 == msg2:
+    print("The tow files are identical")
